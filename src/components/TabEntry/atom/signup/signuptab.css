@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+}
+
+form {
+    padding: 10px 30px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    margin-top: 20px !important;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+    background-color: rgb(247, 247, 247);
+    padding-left: 4%;
+    padding: 2% 4%;
+}
+
+input[placeholder="name"] {
+    width: 48%;
+    float: left;
+}
+
+input[placeholder="lastname"] {
+    width: 48%;
+    float: right;
+}
+
+input[value="signup"] {
+    background-color: rgb(67, 133, 255);
+    width: 100%;
+    padding: 3% 0;
+}
+
+.connect-logo {
+    text-align: center;
+}
+
+img[alt="googlelogo"],
+img[alt="facebooklogo"] {
+    margin-left: 1rem;
+}

@@ -1,0 +1,10 @@
+.tab-entry {
+    width: 460px;
+    height: 679px;
+    background-color: white;
+}
+
+.tab-header {
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,17 @@
+.container {
+    flex-direction: column;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem;
+    background-image: url('../../images/background.png');
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+}
