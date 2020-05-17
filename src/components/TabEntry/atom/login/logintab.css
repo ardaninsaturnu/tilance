@@ -1,10 +1,15 @@
-.container {
+.login-container {
     text-align: center;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    padding: 60px 30px;
+    min-height: 500px;
 }
 
 form {
-    padding: 10px 30px;
+
     text-align: center;
+
 }
 
 input {
@@ -20,10 +25,18 @@ input {
 
 input[type="button"] {
     background-color: rgb(45, 226, 84);
+    font-weight: 500;
+    color: white;
 }
 
 .connect-logo {
     text-align: center;
+}
+
+.text-log {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 img[alt="googlelogo"],

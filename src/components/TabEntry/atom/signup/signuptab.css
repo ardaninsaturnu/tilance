@@ -1,5 +1,8 @@
-.container {
+.signup-container {
     text-align: center;
+    background-color: white;
+    padding: 10% 2%;
+    border-radius: 0 0 15px 15px;
 }
 
 form {
@@ -32,6 +35,10 @@ input[value="signup"] {
     background-color: rgb(67, 133, 255);
     width: 100%;
     padding: 3% 0;
+    color: white;
+    font-weight:500;
+
+
 }
 
 .connect-logo {
@@ -41,4 +48,9 @@ input[value="signup"] {
 img[alt="googlelogo"],
 img[alt="facebooklogo"] {
     margin-left: 1rem;
+}
+
+.textlogin {
+    color: rgba(146, 145, 145, 0.91);
+    padding: 5% 5%;
 }

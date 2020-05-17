@@ -10,46 +10,35 @@ class LoginTab extends Component {
 
     render() {
 
-        return ( <
-            div className = "container" >
+        return (
+            <div className = "login-container" >
 
-            <
-            form >
+            <form>
 
-            <
-            input placeholder = "e-mail"
-            type = "text" / >
-            <
-            input placeholder = "password"
-            type = "password" / >
-            <
-            input type = "button"
-            value = "Login" / >
+            <input placeholder = "e-mail or username"
+            type = "text" />
+            <input placeholder = "password"
+            type = "password" />
+            <input type = "button"
+            value = "Login" />
 
-            <
-            /form>
+            </form>
+            <div className='text-log'>
+                <a href='#'>Create Account</a>
+                <a href='#'>Forget Password</a>
+            </div>
 
-            <
-            p className = 'textlogin' > or Connect With < /p>
+            <p className = 'textlogin' > or Connect With </p>
 
-            <
-            div className = "connect-logos" >
+            <div className = "connect-logos" >
 
-            <
-            img src = { Github }
-            alt = 'githublogo' / >
-            <
-            img src = { Facebook }
-            alt = "facebooklogo" / >
-            <
-            img src = { Google }
-            alt = "googlelogo" / >
+            <img src = { Github } alt = 'githublogo' />
+            <img src = { Facebook } alt = "facebooklogo" />
+            <img src = { Google } alt = "googlelogo" />
 
-            <
-            /div>
+            </div>
 
-            <
-            /div>
+            </div>
         )
     }
 }

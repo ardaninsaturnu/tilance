@@ -5,6 +5,7 @@ import Tab from 'react-bootstrap/Tab'
 import './TabEntry.css'
 import LoginTab from './atom/login/LoginTab'
 import SignupTab from './atom/signup/SignupTab'
+import TextHeader from "./atom/text/TextHeader";
 
 
 
@@ -13,34 +14,26 @@ class TabEntry extends Component {
     render() {
         return (
 
-            <
-            div className = "tab-header" >
-            <
-            div className = "tab-entry" >
-            <
-            Tabs defaultActiveKey = "profile"
-            id = "uncontrolled-tab-example" >
+            <div className = "tab-header" >
 
-            <
-            Tab eventKey = "login"
-            title = "Login" >
-            <
-            LoginTab / >
-            <
-            /Tab>
+               <TextHeader/>
 
-            <
-            Tab eventKey = "signup"
-            title = "Signup" >
-            <
-            SignupTab / >
-            <
-            /Tab>
+               <div className = "tab-entry" >
+                  <Tabs defaultActiveKey = "login" id = "uncontrolled-tab-example" >
 
-            <
-            /Tabs> <
-            /div> <
-            /div>
+            <Tab eventKey = "login"
+            title = "Login">
+            <LoginTab/>
+            </Tab>
+
+            <Tab eventKey = "signup"
+            title = "Signup">
+            <SignupTab/>
+            </Tab>
+
+                  </Tabs>
+               </div>
+            </div>
         );
     }
 }
