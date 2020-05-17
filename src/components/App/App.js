@@ -3,9 +3,7 @@ import React from 'react';
 import './App.css';
 import logo from '../../images/logo.png';
 import TabEntry from '../TabEntry/TabEntry';
-
-
-
+import Header from "../Header/Header";
 
 
 
@@ -16,15 +14,7 @@ function App() {
 
         <div className = "container">
 
-        <header className = "header">
-
-        <img src = {logo} alt = "logo" className="logo"/>
-        <nav>
-        <a href = "#" className="how-it-works"> How It Works ? </a>
-            <button className="subscribe"> Subscribe Now </button>
-        </nav>
-
-        </header>
+        <Header/>
 
         <TabEntry/>
 
