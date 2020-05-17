@@ -19,7 +19,7 @@ class TabEntry extends Component {
                <TextHeader/>
 
                <div className = "tab-entry" >
-                  <Tabs defaultActiveKey = "login" id = "uncontrolled-tab-example" >
+                  <Tabs defaultActiveKey = "signup" id = "uncontrolled-tab-example" >
 
             <Tab eventKey = "login"
             title = "Login">
